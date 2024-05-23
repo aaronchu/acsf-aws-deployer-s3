@@ -17,7 +17,7 @@ Using the module:
 
 ```
 module "static_website_deployer" {
-  source        = "git::https://github.com/aaronchu/acsf-aws-deployer-s3.git"
+  source        = "git::https://github.com/aaronchu/acsf-aws-deployer-s3.git?ref=v0.1.0"
   deployer_name = "github-actions-mydomainname-website"
   bucket_name   = "mydomainname-static-website"
 
